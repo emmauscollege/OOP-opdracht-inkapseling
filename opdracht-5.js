@@ -17,7 +17,7 @@ class Boek {
   }
 
   printGegevens() {
-    console.log("Auteur: " + this.auteur + "titel: " + this.titel);
+    console.log("Auteur: " + this.auteur + " titel: " + this.titel);
   }
 }
 
