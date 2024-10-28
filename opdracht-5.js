@@ -30,7 +30,8 @@ boekA.printGegevens();
 Hieronder staan regels code met // ervoor.
 Deze regels proberen toch een attribuut te lezen of te schrijven
 Haal deze // weg weg en vul de code van de tweede regel na de = aan, zodat je
-de titel aanpast en kijk in de console welke melding je krijgt */
+de titel aanpast en kijk in de console welke melding je krijgt.
+Hint: het gaat niet werken, zet alle // hieronder maar weer terug */
 
 
 // console.log("Poging tot direct uitlezen van auteur:");
@@ -46,10 +47,11 @@ de titel en de auteur op kunt vragen. Haal bij de regels hieronder
 de // weg, zodat je kunt controleren of het correct werkt */
 
 
+// console.log("oefening 5c")
 // console.log("Titel van boek, verkregen met getter:")
-// boekA.getTitel();
+// console.log(boekA.getTitel());
 // console.log("Auteur van boek, verkregen met getter:")
-// boekA.getAuteur();
+// console.log(boekA.getAuteur());
 
 
 /* *** Oefening 5d: Setter met voorwaarden
@@ -68,22 +70,21 @@ Pas helemaal bovenaan de class Boek op de volgende manier aan:
            moet je voordat je een aanpassing doet controleren of de
            waarde van nieuweVoorraad kleiner is dan 0
 
-Haal de bij onderstaande regels code de // weg en controler de uitkomstin de console
+Haal de bij onderstaande regels code de // weg en controler de uitkomst in de console
 */
 
+// console.log("oefening 5d")
+// nieuw boek-object aanmaken, met voorraad 4
 // var boekB = new Boek("Tolkien", "Lord of the Rings", 4);
-
-// console.log("Voorraad proberen toch direct te wijzigen, moet foutmelding geven:");
-// boekB.#voorraad = 10;
 
 // console.log("Voorraad wijzigen met setter, daarna gegevens printen");
 // boekB.setVoorraad(20);
 // boekB.printGegevens();
 
-// console.log("Voorraad met setter wijziging in -15, mag NIET werken:");
+// console.log("Voorraad met setter wijziging in -15, vooraad moet automatisch 0 worden:");
 // boekB.setVoorraad(-15);
 // boekB.printGegevens();
 
-// console.log("Opnieuw boek-object aanmaken, maar met negatieve vooraad, mag ook NIET werken");
+// console.log("Opnieuw een boek-object aanmaken, maar met negatieve vooraad, vooraad moet automatisch 0 worden:");
 // var boekC = new Boek("Tolkien", "The Silmarillion", -7);
 // boekC.printGegevens();
